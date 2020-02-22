@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/sls-py-req
+    machine:
+      image: circleci/classic
+    steps:
+      - checkout
+      - whoami
