@@ -6,4 +6,4 @@ jobs:
       image: circleci/classic
     steps:
       - checkout
-      - whoami
+      - run: whoami
